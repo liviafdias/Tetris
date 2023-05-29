@@ -1,19 +1,19 @@
 [gd_scene load_steps=3 format=2]
 
 [ext_resource path="res://scenes/Bloco.tscn" type="PackedScene" id=1]
-[ext_resource path="res://scenes/Peca.gd" type="Script" id=2]
+[ext_resource path="res://scripts/Peca.gd" type="Script" id=2]
 
 [node name="Peca" type="KinematicBody2D"]
 script = ExtResource( 2 )
 
 [node name="Bloco1" parent="." instance=ExtResource( 1 )]
-position = Vector2( 154, 103 )
+position = Vector2( 208, 136 )
 
 [node name="Bloco2" parent="." instance=ExtResource( 1 )]
-position = Vector2( 182, 103 )
+position = Vector2( 240, 136 )
 
 [node name="Bloco3" parent="." instance=ExtResource( 1 )]
-position = Vector2( 210, 77 )
+position = Vector2( 240, 72 )
 
 [node name="Bloco4" parent="." instance=ExtResource( 1 )]
-position = Vector2( 238, 103 )
+position = Vector2( 240, 104 )
